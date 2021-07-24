@@ -148,7 +148,7 @@ documentated code, but also be extremely pragmatic and have a nature desire to w
 
 ### Contributing
 
-* [Development](./docs/contributing/development)
+* [Development](./docs/environmenting/README.md)
 * [Guidelines](./docs/contributing/guidelines.md)
 
 ### Community
