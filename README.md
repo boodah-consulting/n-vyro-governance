@@ -118,13 +118,115 @@ Ways of contributing:
 * Documentation Improvements
 * Bug Reporting
 
-### Product improvements
+It's perfectly okay if you feel you have a range of skills, or that you may not have the skills required to contrbute.
+As long as you're passionate, engaged in taking part but being clear when you're unable you're more than welcome to
+contribute in the many of forms of contribution we offer.
 
-#### Marketing
+This is a community sport, we want to include as many people in this journey as possible and path the way for not only
+better way for providing products and also partaking in work and interacting with businesses.
 
-#### Product
+### Product Building
 
-#### Development
+We're still in the early phases of development. Although we've achieved alot considering our limit on resources and
+other contributors, we're looking to move the development of this ecosystem into the next phases.
+
+We have enough for, a select few, users to test out these devices and give us some initial feedback. This will help us
+to make sure we're on the right track before we straight to focus more on the really important aspects of the product.
+
+However, to get there we need help, regardless of whether your're a techie or whether you're a professional gardener
+we encourage you to contribute.
+
+We're also looking for people who are passionate about the same kind of things that we are, who would love to spend
+some time collaborating with us towards the goal of finally releasing something cool into the world.
+
+#### Collective Orchestrators
+
+These kinds of people will need to be able to flutter between groups and be able to mediation, or be able to be in a
+place to be able to make a judgement call, when the time deams it. This could be within Discord or within a collective
+meeting.
+
+It will be important have a number of these kinds of people to help keep the nature diversity at an equilibrium.
+
+As these roles are not your typical hat, this will typically be determined by the group, based off of the persons
+historic performance and how they feel said person would do within such capacity.
+
+They'll be a requirement to have a number of these types of positions, especially as the group grows as ideally we
+would like to be self governing and that typically doesn't happen when a group only has two extremes and nothing of
+the inbetween.
+
+#### General Business
+
+We're good at a number of things but Marketing isn't particularly one of them. We'd love for someone to help guide as
+through the excite times of preparing to for funding and take the first steps towards creating a truly Collaborative
+enterprise.
+
+This is probably one of the areas where we could do with a lot more assistance.
+
+Skills needed:
+
+  * Workers Co-Op
+  * Market analysis
+  * Strategy
+  * Funding/Investment
+  * Community Liasion
+  * Admininstration
+  * Facilitators
+  * Moderators
+  * Strategy
+
+#### Product Development
+
+You'll be able to fit into the existing group and help to guide the delivery of the products for manufacturing.
+
+n-vyro.io is broken up into a number of components so there are a range of skills we could utilise.
+
+At present we could we with the following hats:
+
+  * PM
+    * To manage UI dev
+    * To manage firmware dev
+  * Branding
+    * Come up with a constent, and strong, brand behind the organisation
+    * Must understand what we're about
+    * Be comfortable with ruffling feathers, at times, and only when agreed by the collective.
+  * Copywriter
+    * Be able to enhance our message
+    * May have an eye of application based copy
+    * Could help with our static page
+  * UX/UI
+    * Has experience building UIs smart devices
+    * Has web experience
+    * Has a feel for brand
+    * Ability to get a feel for the sector
+    * Needed across the following:
+      * NVyroConnect
+      * NVyroSense
+      * NVyroHub
+  * Electronics
+    * Help develop and research new ways of interacting with n-vyro.io
+    * Help improve existing circuitry
+    * Helping to make electronics more accessible
+  * Agriculture
+    * Provide insight into how we can improve n-vyro
+    * Test our devices
+  * Software
+    * Help improve upon the foundations that we've started to build
+    * Help improve the documentation
+  * Linux/System Admininstration
+    * Help with our release pipeline
+    * Help improve how we build NVyroHub
+  * AI
+    * Help us explore how we could leverage ML to help our users
+  * User research
+    * Help us to work out what users really want
+    * Hold testing sessions
+    * Come up with ways to challenge our questions
+  * QA/Testing: This should be at every stage but this group hold the touch
+    * Have a high-level view of the product(s)
+  * R&amp;D
+    * Need to be flexible with what they're experimenting with
+
+#### Software Development
 
 We have a relatively stable foundation to work from, but it is by no means perfect. We'd love for other with a passion
 for collaboration, programming, growing, and automation, to help us make n-vyro.io the product that we'd all love.
@@ -141,14 +243,33 @@ Ideally we're open to anyone who has production level experienced with the follo
 They'll need to be comfortable with the TDD/BDD approaches of development, with a strong background in writing well
 documentated code, but also be extremely pragmatic and have a nature desire to want to challenge ideas and not egos.
 
+#### Resources
+
+* [Guidelines](./docs/contributing/guidelines.md)
+
 ### Product testing
+
+#### Resources
+
+* [Contributing to n-vyro.io](./docs/contributing/introduction.md)
+
 ### Documentation Improvements
+
+#### Resources
+
+* [Contributing to n-vyro.io](./docs/contributing/introduction.md)
+
 ### Bug Reporting
 
-### Contributing
+We use GitHub Issues for all of our issues. This helps us to keep transparency and provides a clear mechanism for
+resolving any unknown bugs.
 
-* [Development](./docs/contributing/introduction.md)
-* [Guidelines](./docs/contributing/guidelines.md)
+It's important to distinguist between a bug and not understanding something relating to the system. We have a Discord,
+which can be used to help with any potential teething problems.
+
+Issues should be repeatable and should provide the current versions of the effected devices.
+
+[NOTE]: We should have a more fluid way of processing bugs and escalating them to PRs.
 
 ### Community
 
