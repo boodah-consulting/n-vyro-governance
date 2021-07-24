@@ -155,6 +155,18 @@ documentated code, but also be extremely pragmatic and have a nature desire to w
 
  * [Guidelines](./docs/community/guidelines.md)
 
+## When are we ready to become a full workers co-op
+
+We'll need to make sure we've implemented these steps before we can perceive ourselves as a mature organisation
+
+steps to a mature organisation:
+* shared vision
+* accountability
+* governance
+* shared identity
+* a decision-making protocol
+* oh yeah, a sustainable business model would be nice
+
 ## Notes
 
 * [Meetings](./docs/notes/meetings/README.md)
