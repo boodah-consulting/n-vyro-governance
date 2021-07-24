@@ -145,10 +145,9 @@ documentated code, but also be extremely pragmatic and have a nature desire to w
 ### Documentation Improvements
 ### Bug Reporting
 
-
 ### Contributing
 
-* [Development](./docs/environmenting/README.md)
+* [Development](./docs/contributing/introduction.md)
 * [Guidelines](./docs/contributing/guidelines.md)
 
 ### Community
