@@ -97,6 +97,10 @@ Future Goals
  * Extend this into Standardisation into other sector
   * Ensuring the standard remains in the hands of the public
 
+## Current Plan
+
+![roadmap](https://github.com/boodah-consulting/n-vyro-governance/blob/main/docs/images/release_road_map.jpg)
+
 ## Terminology
 
  * **NVyroConnect**: Device for connecting any 12/24v peripherals to (ie. growing lights, fans, irrigation)
