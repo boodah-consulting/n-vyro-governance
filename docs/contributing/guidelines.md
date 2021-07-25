@@ -39,7 +39,7 @@ bottleneck.
 
 * Does this increase quality and not technical debt?
 
-* Will this bring us more Collective and financial contributors?
+* Will this bring us more n-vyro.io and financial contributors?
 
 * Is this already solved elsewhere or is it our unique contribution?
 
