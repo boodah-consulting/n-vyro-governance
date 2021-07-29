@@ -12,8 +12,8 @@ We are a community based on trust, transparency and contribution. We have a trus
 
 **Be mindful.** Your backers will definitely want to hear about how you are going, get invitations to your activities, and stay connected. Please be respectful of their inboxes and their time and make sure they are always wanting more! 
 
-**If something’s wrong, let us know.** We believe in self-managing systems so we don’t police or moderate, the only way of making this work is if we share the effort of ensuring that everything is as it should be. If you see something wrong, off, or that looks funny to you, let us know info@opencollective.com 
+**If something’s wrong, let us know.** We believe in self-managing systems so we don’t police or moderate, the only way of making this work is if we share the effort of ensuring that everything is as it should be. If you see something wrong, off, or that looks funny to you, let us know info@boodah.net 
 
 **Share the love.** If you like something, share it with your friends, let the world know and receive some love in return. 
 
-As the OpenCollective community grows, we may have to redesign these guidelines and the way we enforce them. It’s up to all of us to build an honest, safe and trustworthy community. Thank you for making it real.
+As the n-vyro.io community grows, we may have to redesign these guidelines and the way we enforce them. It’s up to all of us to build an honest, safe and trustworthy community. Thank you for making it real.
