@@ -10,7 +10,7 @@ Assisting in improving, and standardising, the current way we automate and track
 
 With N-Vyro.io you can create your ideal environment settings without worrying about how everything communicates with each other.
 
-We also make it easier to integrate existing equipment into your environment, providing enhanced functionality missing previously.
+We also make it easier to integrate existing equipment into your environment, providing enhanced functionality previously missing.
 
 ### What We Are Not
 
@@ -39,17 +39,17 @@ We also make it easier to integrate existing equipment into your environment, pr
 
  **Self Sustainability**: From helping others grow locally to creating social/business systems that provide more social impact than profit. We believe that these do not need to take more than they give.
 
- **Equity**: We believe that everyone has value. With this vision, we aim to not only help others to utilise their skills, but we also strive to make our products available to as many people as possible, regardless of their privilege or lack thereof.
+ **Equity**: We believe that everyone has value. With this vision, we aim to not only help others utilise their skills, but we also strive to make our products available to as many people as possible, regardless of their privilege or lack thereof.
 
- **Collaboration**: We firmly believe that for things to improve that we have to work together. This is needed when it comes to internal business and the community. Having the community drive driving change and working closely with us to achieve their goals.
+ **Collaboration**: We firmly believe in order for things to improve that we have to work together. This is needed when it comes to internal business and the community. Having the community steering change and working closely with us to achieve their goals.
 
- **Transparency**: As with all companies, we feel that we have something that can help others and the world. But unlike other companies, we strive to keep as much of our practices in the open.
+ **Transparency**: As with all companies, we believe that we have something that can help others and the world. But unlike other companies, we strive to keep as much of our practices in the open as much as possible.
 
  **Modularity**: Not only do we value using them from an engineering perspective, but we also find it vital in how we work and organise as a collective.
 
 ## Mission
 
-n-vyro.io's mission is to provide a more sustainable and reliable way for people to grow regardless of the area they reside in.
+n-vyro.io's mission is to provide a more sustainable and reliable way for people to grow, regardless of the area they reside in.
 
 Aims:
  * Give users control of their environments
@@ -74,8 +74,8 @@ Aims:
 ## Terminology
 
  * **NVyroConnect**: Device for connecting any 12/24v peripherals to (Growing lights, fans, irrigation pump)
- * **NVyroSense**: Devices that are used to track and environment on its soil
- * **NVyroHub**: Main interface user users for controlling events and how their gardens are setup
+ * **NVyroSense**: Devices that are used to track environment on its soil
+ * **NVyroHub**: Main interface for controlling events and how their gardens are setup
  * **NVyroSoil**: Tracks the temperature, humidity, pressure, and moisture of the soil it lives in
  * **NVyroZone**: Tracks the temperature, humidity, pressure of the area it is set up in
 
@@ -106,25 +106,25 @@ Ways of contributing:
  * Bug Reporting
  * Funding
 
-If you spot something you think we could do with some help with your input is more than welcome. Over time you will become comfortable with how things work and find yourself becoming a core contributor.
+If you spot something you think we could do with some help with your input is more than welcome.
 
-We want to include as many people in this journey as possible. Paving the way for not only a better way for producing products but also partaking in work and interacting with businesses.
+We want to include as many people in this journey as possible. Paving the way for not only a better way of producing products but also partaking in work and interacting with businesses.
 
 ### Product Building
 
 We are still in the early phases of development, although in the two years its taken, we are now looking to move the development of this ecosystem into the next phase of the plan.
 
-We now have enough devices send out to testers. Once these are sent to testers we will start to take any input received and feed that back into our MVP backlog.
+We now have enough devices to send out to testers. Once these are sent to testers we will take any input received and feed that back into our MVP backlog.
 
-However, regardless of whether you are a techie or a professional gardener, we encourage you to contribute.
+Regardless of whether you are a techie or a professional gardener, we encourage you to contribute.
 
-We are additionally looking for smart, pragmatic, and passionate people who would love to spend some time collaborating with us towards the goal of finally releasing something cool into the world.
+In addition we are looking for smart, pragmatic, and passionate people who would love to spend some time collaborating with us, and our goal of releasing something cool into the world.
 
 #### Community Leaders
 
-These kinds of people will need to be able to flutter between groups and be able to mediate or be able to be in a place to be able to make a judgement call when the time deems it. This could be within Discord or meetings.
+These kinds of people will need to be able to flutter between groups, and mediate or be able to be in a place to be able to make judgement calls when the time deems it. This could be within Discord or meetings.
 
-It will be vital to have a number of these kinds of people to help keep the natural diversity at an equilibrium.
+It will be vital, to have a number of these kinds of people, to help keep the natural diversity at an equilibrium.
 
 #### General Business
 
@@ -132,7 +132,7 @@ We are good at many things, Marketing is not one of them.
 
 We would love for someone to help guide us through the exciting times of preparing for funding and take the first steps towards creating a Collaborative enterprise.
 
-This is probably one of the areas where we could do with a lot more assistance.
+Areas where we could do with a lot more assistance.
 
 Skills needed:
 
@@ -153,7 +153,7 @@ You will be able to fit into the existing group and help guide the delivery of t
 
 n-vyro.io is broken up into several components so that there is a range of skills we could utilise.
 
-At present, we could we with the following hats:
+At present, we could do with the following hats:
 
   * PM
     * To manage UI dev
