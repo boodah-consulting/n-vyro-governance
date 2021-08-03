@@ -6,7 +6,7 @@
 
 ## Overview
 
- * [Aims](#Aims)
+ * [Aim](#Aim)
  * [Values](#Values)
  * [Mission](#Mission)
  * [Products](#Products)
@@ -17,14 +17,13 @@
  * [Contributing](#Contributing)
  * [Copyright](#Copyright)
 
-
-## Aims
+## Aim
 
 Assisting in improving, and standardising, the current way we automate and track the progress of our beloved plants.
 
-With N-Vyro.io you can create your ideal environment settings without worrying about how everything communicates with each other.
+With [n-vyro.io](https://n-vyro.io), you can create your ideal environmental settings without worrying about how everything talks to each other; or whether your devices are giving your data away.
 
-We also make it easier to integrate existing equipment into your environment, providing enhanced functionality previously missing.
+We also make it easier to integrate existing tools into your environment, providing the enhanced functionality you have been missing.
 
 ### What We Are Not
 
@@ -47,31 +46,27 @@ We also make it easier to integrate existing equipment into your environment, pr
 
  **Community Centric**: We are small at the moment, but we aim to grow into a stable, well-established group that is an extension of its community.
 
- **Tech for Good**: Not all problems can be solved with technology. We recognise this and aim to use technology as a utility or assistant, not a panacea for all solutions.
+ **Tech for Good**: Not all solutions require technology. We recognise this and aim to use technology as a utility or assistant, not a panacea.
 
  **Work Smart**: We have spent most of our lives working with ineffective systems. We aim to solve problems our community have, not create new ones.
 
  **Self Sustainability**: From helping others grow locally to creating social/business systems that provide more social impact than profit. We believe that these do not need to take more than they give.
 
- **Equity**: We believe that everyone has value. With this vision, we aim to not only help others utilise their skills, but we also strive to make our products available to as many people as possible, regardless of their privilege or lack thereof.
+ **Equity**: We aim to not only help others utilise their skills but also strive to make our products available to as many people as possible, regardless of their privilege or lack thereof.
 
- **Collaboration**: We firmly believe in order for things to improve that we have to work together. This is needed when it comes to internal business and the community. Having the community steering change and working closely with us to achieve their goals.
+ **Collaboration**: This is needed when it comes to building something bigger than ourselves. Our workers and community are our core and work closely with us to achieve their goals.
 
- **Transparency**: As with all companies, we believe that we have something that can help others and the world. But unlike other companies, we strive to keep as much of our practices in the open as much as possible.
+ **Transparency**: As with all companies, we believe that we have something that can help others; and the world. Unlike other companies, we strive to keep our practices in the open as much as pragmatically possible.
 
- **Modularity**: Not only do we value using them from an engineering perspective, but we also find it vital in how we work and organise as a collective.
+ **Modularity**: Whenever things need to either be logically broken up or whether they are becoming too big. We are in favour of using this to help simplify our practices, processes and thinking.
 
 ## Mission
 
-n-vyro.io's mission is to provide a more sustainable and reliable way for people to grow, regardless of the area they reside in.
-
-Aims:
- * Give users control of their environments
- * Standardise how people set up their growing environments
- * Make growing more accessible to others
- * Simplify smart devices
+[n-vyro.io](https://n-vyro.io) mission is to provide a more sustainable and reliable way for people to grow and control their environment, regardless of the area they reside.
 
 ## Products
+
+[n-vyro.io](https://n-vyro.io) has various products in its ecosystem. Each device has its job, and it does that job very well.
 
 ![Product Line](http://www.n-vyro.io/images/product_line.png)
 
@@ -79,27 +74,28 @@ Aims:
 
 ## Goals
 
+ * Make growing more accessible to others
  * Place technology in the hands of users
- * Provide a standard communication layer for all smart devices
- * Pave the way for similar kinds of business entities
- * Extend this standardisation into other sectors
+ * Simplify smart-devices
+ * Standardise messaging for smart-devices
  * Ensuring the standard remains in the hands of the public
+ * More control to users over their environment
+ * Pave the way for similar kinds of business entities
+ * Extend technology into other sectors
 
 ## Terminology
 
- * **NVyroConnect**: Device for connecting any 12/24v peripherals to (Growing lights, fans, irrigation pump)
- * **NVyroSense**: Devices that are used to track environment on its soil
- * **NVyroHub**: Main interface for controlling events and how their gardens are setup
- * **NVyroSoil**: Tracks the temperature, humidity, pressure, and moisture of the soil it lives in
- * **NVyroZone**: Tracks the temperature, humidity, pressure of the area it is set up in
+ * **NVyroConnect**: Device for connecting any 12/24v electronics to n-vyro.io (examples: Growing lights, fans, irrigation pump)
+ * **NVyroSense**: Device for tracking environmental statistics
+ * **NVyroHub**: Device controlling events and how their gardens are setup
+ * **NVyroSoil**: A device for tracking the temperature, humidity, pressure, and moisture of the soil it lives in
+ * **NVyroZone**: A device for tracking the temperature, humidity, pressure of the area it is in
 
 ## Roadmap
 
  * Test physical devices
   * Resolve any issues that crop up
   * Enhance documentation based on feedback
-  * Needs to be technically competent
-    * Able to debug issues and articulate potential issues
  * Complete marketing
   * Competitor analysis
   * Focus on the target community
@@ -120,7 +116,9 @@ Aims:
 
 ## Contributing
 
-We welcome contributors of all kinds, whether it is making documentation changes or adding new features. There are a few steps to take into consideration, but for the most part, the process is not that much different from contributing to any other codebase.
+We welcome contributors of all kinds, whether it is making documentation changes or adding new features.
+
+There are a few steps to take into consideration, but for the most part, the process is not that much different from contributing to any other codebase.
 
 Ways of contributing:
 
@@ -132,44 +130,44 @@ Ways of contributing:
 
 If you spot something you think we could do with some help with your input is more than welcome.
 
-We want to include as many people in this journey as possible. Paving the way for not only a better way of producing products but also partaking in work and interacting with businesses.
+We want to include as many people in this journey as possible, paving the way for a better way of producing products, partaking in work and interacting with businesses.
 
-### Product Building
+### Product Testing
 
-We are still in the early phases of development, although in the two years its taken, we are now looking to move the development of this ecosystem into the next phase of the plan.
+We have a limited number of spaces available for testing!
 
-We now have enough devices to send out to testers. Once these are sent to testers we will take any input received and feed that back into our MVP backlog.
+Initially, users will need to have the following pre-requisites:
+
+  * Provide critical feedback relating to n-vyro.io
+  * Be a member of our Discord
+  * Needs to be technically competent
+    * Able to install packages
+    * Basic knowledge of Linux
+    * Able to debug issues and articulate potential issues
+
+### Product Development
+
+We are still in the early phases of growth. Although in the two years it has taken to get here, we are now looking to move to the next stage of the plan.
+
+We now have enough devices to send out to a few testers.
+
+Once these have gone to the testers, we will take any input received and feed that back into our MVP backlog.
 
 Regardless of whether you are a techie or a professional gardener, we encourage you to contribute.
 
-In addition we are looking for smart, pragmatic, and passionate people who would love to spend some time collaborating with us, and our goal of releasing something cool into the world.
+In addition, we are looking for insightful, pragmatic, and passionate people who would love to spend some time collaborating with us and our goal of releasing something cool into the world to becoming founding members.
 
 #### Community Leaders
 
-These kinds of people will need to be able to flutter between groups, and mediate or be able to be in a place to be able to make judgement calls when the time deems it. This could be within Discord or meetings.
+These kinds of people will need to be able to flutter between groups and mediate or be able to be in a place to be able to make judgement calls when the time deems it, whether within [Discord](https://discord.gg/EpgbAWCvCk) or meetings.
 
-It will be vital, to have a number of these kinds of people, to help keep the natural diversity at an equilibrium.
+It will be vital to have a number of these kinds of people to help keep the natural diversity at an equilibrium.
 
 #### General Business
 
-We are good at many things, Marketing is not one of them.
+We are good at many things Marketing is not one of them.
 
 We would love for someone to help guide us through the exciting times of preparing for funding and take the first steps towards creating a Collaborative enterprise.
-
-Areas where we could do with a lot more assistance.
-
-Skills needed:
-
-  * Workers Co-Op
-  * Market analysis
-  * Strategy
-  * Funding/Investment
-  * Community Liaison
-  * Team Building
-  * Administration
-  * Facilitators
-  * Moderators
-  * Strategy
 
 #### Product Development
 
@@ -184,7 +182,7 @@ At present, we could do with the following hats:
     * To manage firmware dev
   * Branding
     * Come up with content, and create a strong brand behind the organisation
-    * Must understand what we are about
+    * Must share our values
     * Be comfortable with ruffling feathers, at times, and only when agreed by the collective.
   * Copywriter
     * Be able to enhance our message
@@ -212,12 +210,16 @@ At present, we could do with the following hats:
   * Linux/System Administration
     * Help with our release pipeline
     * Help improve how we build NVyroHub
+  * CI/CD
+    * Release management
+    *  Versioning
+    * DevOps
   * AI
     * Help us explore how we could leverage ML to help our users
   * User research
     * Help us to work out what users need
     * Hold testing sessions
-    * Come up with ways to challenge our questions
+    * Effectively challenge ideas and the status quo
   * QA/Testing: This should be at every stage of production
     * Have a high-level view of the product(s)
   * R&amp;D
@@ -225,7 +227,9 @@ At present, we could do with the following hats:
 
 #### Software Development
 
-We have a relatively stable foundation to work from, but it is by no means perfect. We would love some more help making n-vyro.io the product that we all love.
+We have a relatively stable foundation to work from, but it is by no means perfect. We would love to make n-vyro.io the ecosystem that we all can come to cherish.
+
+For this, there is a lot of work that needs to go into the coming stages.
 
 Ideally, we're open to anyone who has production-level experience with the following languages:
 
@@ -238,25 +242,40 @@ Ideally, we're open to anyone who has production-level experience with the follo
 
 They will need to be comfortable with the TDD/BDD approaches of development. A pragmatist who has an affinity for challenging ideas and testing them out. With a strong background in writing well-documented code.
 
+#### Other Important Skills
+
+  * Workers Co-Op
+  * Market analysis
+  * Strategy
+  * Funding/Investment
+  * Community Liaison
+  * Team Building
+  * Administration
+  * Facilitators
+  * Moderators
+  * Strategy
+
+#### Product Testing
+
+The idea is that anyone can test our devices.
+
+And over the coming stages, we will gradually phase our ecosystem into the public domain.
+
+For now, we are opening up the system to a select few testers.
+
 #### Resources
 
 * [Guidelines](./docs/contributing/guidelines.md)
-* [Info Dump](https://miro.com/app/board/o9J_l5TOx9s=/)
-
-
-### Product testing
-
-#### Resources
-
 * [Contributing to n-vyro.io](./docs/contributing/introduction.md)
+* [Info Dump](https://miro.com/app/board/o9J_l5TOx9s=/)
 
 ### Bug Reporting
 
-We use GitHub Issues for all of our issues. This helps us to keep transparent and provides a mechanism for resolving any unknown bugs.
+We use GitHub Issues for all of our issues, which helps us keep transparent and provides a mechanism for resolving any unknown bugs.
 
 It is vital to distinguish between a bug and not understanding something relating to the system.
 
-We have a Discord, which can be used to help with any potential teething problems.
+We have a [Discord](https://discord.gg/EpgbAWCvCk), which we use to help with any potential setup issues or technical misunderstandings.
 
 Issues should be repeatable and should provide the current versions of the affected devices.
 
