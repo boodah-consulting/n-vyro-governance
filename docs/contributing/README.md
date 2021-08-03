@@ -2,6 +2,7 @@
 
 
 * [Guidelines](./docs/contributing/guidelines.md)
+* [Introduction](./docs/contributing/introduction.md)
 * [Info Dump](https://miro.com/app/board/o9J_l5TOx9s=/)
 
 We welcome contributors of all kinds, whether it is making documentation changes or adding new features. There are a few steps to take into consideration, but for the most part, the process is not that much different from contributing to any other codebase.
