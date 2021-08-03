@@ -114,6 +114,9 @@ Aims:
  * [Twitter](https://twitter.com/NVyroIO)
  * [Facebook](https://www.facebook.com/NVyroIO)
 
+### Guidelines
+
+ * [Guidelines](./docs/community/guidelines.md)
 
 ## Contributing
 
@@ -258,10 +261,6 @@ We have a Discord, which can be used to help with any potential teething problem
 Issues should be repeatable and should provide the current versions of the affected devices.
 
 [NOTE]: We should have a more fluid way of processing bugs and escalating them to PRs.
-
-### Community
-
- * [Guidelines](./docs/community/guidelines.md)
 
 ## When are we ready to become a full workers co-op
 
