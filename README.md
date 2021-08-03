@@ -6,6 +6,10 @@
 
 ## Overview
 
+This repository is a living document for n-vyro.io.
+
+One of the main things users want to is contribute to the project, if this is your proceed [here](./docs/contributing/README.md), otherwise continue reading.
+
  * [Aim](#Aim)
  * [Values](#Values)
  * [Mission](#Mission)
@@ -171,7 +175,7 @@ Steps to a mature organisation:
 
 ## Contributing
 
-See [Code of Conduct](CODE_OF_CONDUCT.md), [Contribute to n-vyro.io](./docs/contributing/README.md) &amp; [Contributing](CONTRIBUTING.md) for more information.
+See [Code of Conduct](CODE_OF_CONDUCT.md), &amp; [Contributing](CONTRIBUTING.md) for more information. Once you are done there [checkout](./docs/contributing/README.md). 
 
 ## Copyright
 
