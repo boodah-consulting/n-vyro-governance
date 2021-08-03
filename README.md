@@ -4,6 +4,20 @@
 
 <p align="center"><a href="https://n-vyro.io" target="_blank" rel="noopener noreferrer"><img width="512" src="./read-me-logo.png" alt="n-vyro.io"></a></p>
 
+## Overview
+
+ * [Aims](#Aims)
+ * [Values](#Values)
+ * [Mission](#Mission)
+ * [Products](#Products)
+ * [Goals](#Goals)
+ * [Terminology](#Terminology)
+ * [Roadmap](#Roadmap)
+ * [Community](#Community)
+ * [Contributing](#Contributing)
+ * [Copyright](#Copyright)
+
+
 ## Aims
 
 Assisting in improving, and standardising, the current way we automate and track the progress of our beloved plants.
@@ -63,7 +77,7 @@ Aims:
 
  * [More information](http://n-vyro.io/products)
 
-## Future Goals
+## Goals
 
  * Place technology in the hands of users
  * Provide a standard communication layer for all smart devices
@@ -93,6 +107,13 @@ Aims:
  * Community Building
 
 ![roadmap](https://github.com/boodah-consulting/n-vyro-governance/blob/main/docs/images/release_road_map.jpg)
+
+## Community
+
+ * [Discord](https://discord.gg/EpgbAWCvCk)
+ * [Twitter](https://twitter.com/NVyroIO)
+ * [Facebook](https://www.facebook.com/NVyroIO)
+
 
 ## Contributing
 
