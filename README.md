@@ -127,15 +127,11 @@ Mostly we can be found on [Discord](https://discord.gg/EpgbAWCvCk), although we 
 
 ### How to take part?
 
-Check out out [contributing](#contributing) section.
+Check out [contributing](#contributing) section.
 
 ### Guidelines
 
  * [Guidelines](./docs/community/guidelines.md)
-
-## Contributing
-
- * [Contributing](./docs/contributing/README.md)
 
 And over the coming stages, we will gradually phase our ecosystem into the public domain.
 
@@ -173,9 +169,9 @@ Steps to a mature organisation:
 * [Releases](./docs/notes/releases/README.md)
 * [Roadmap](./docs/notes/roadmaps/README.md)
 
-## Contributing to NVyroHub
+## Contributing
 
-See [Code of Conduct](CODE_OF_CONDUCT.md) &amp; [Contributing](CONTRIBUTING.md) for more information
+See [Code of Conduct](CODE_OF_CONDUCT.md), [Contribute to n-vyro.io](./docs/contributing/README.md) &amp; [Contributing](CONTRIBUTING.md) for more information.
 
 ## Copyright
 
