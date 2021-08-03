@@ -284,11 +284,7 @@ And over the coming stages, we will gradually phase our ecosystem into the publi
 
 For now, we are opening up the system to a select few testers.
 
-#### Resources
-
-* [Guidelines](./docs/contributing/guidelines.md)
-* [Contributing to n-vyro.io](./docs/contributing/introduction.md)
-* [Info Dump](https://miro.com/app/board/o9J_l5TOx9s=/)
+* [Introduction n-vyro.io](./docs/contributing/introduction.md)
 
 ### Bug Reporting
 
