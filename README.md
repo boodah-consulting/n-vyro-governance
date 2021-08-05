@@ -6,6 +6,10 @@
 
 ## Overview
 
+This repository is a living document for n-vyro.io.
+
+One of the main things users want to is contribute to the project, if this is your proceed [here](./docs/contributing/README.md), otherwise continue reading.
+
  * [Aim](#Aim)
  * [Values](#Values)
  * [Mission](#Mission)
@@ -127,168 +131,17 @@ Mostly we can be found on [Discord](https://discord.gg/EpgbAWCvCk), although we 
 
 ### How to take part?
 
-Check out out [contributing](#contributing) section.
+Check out [contributing](#contributing) section.
 
 ### Guidelines
 
  * [Guidelines](./docs/community/guidelines.md)
 
-## Contributing
-
-We welcome contributors of all kinds, whether it is making documentation changes or adding new features.
-
-Ways of contributing:
-
- * Product Testing
- * Product Improvements
- * Documentation Improvements
- * Bug Reporting
- * Funding
-
-If you spot something that you think that we could improve, we are open to suggestions.
-
-We want to include as many people in this journey as possible, paving the way for a better way of producing products, partaking in work and interacting with businesses.
-
-### Product Testing
-
-We have a limited number of spaces available for testing!
-
-Initially, users will need to have the following pre-requisites:
-
-  * Provide critical feedback relating to n-vyro.io
-  * Be a member of our Discord
-  * Needs to be technically competent
-    * Able to install packages
-    * Basic knowledge of Linux
-    * Able to debug issues and articulate potential issues
-
-### Product Development
-
-We are still in the early phases of growth. Although in the two years it has taken to get here, we are now looking to move to the next stage of the plan.
-
-We now have enough devices to send out to a few testers.
-
-Once these have gone to the testers, we will take any input received and feed that back into our MVP backlog.
-
-Regardless of whether you are a techie or a professional gardener, we encourage you to contribute.
-
-In addition, we are looking for insightful, pragmatic, and passionate people who would love to spend some time collaborating with us and our goal of releasing something cool into the world to becoming founding members.
-
-#### Fascilitators
-
-They will help bridge the gap between the two extremes takes a specific type of person, someone who is respected on both sides, usually for not taking sides. These people will be crucial for keeping the group dynamics in place, as they tend not to take sides and are seen as fair people.
-
-Whether within [Discord](https://discord.gg/EpgbAWCvCk) or meetings, it will be vital to have these types of minds regardless of their skillset.
-
-It will be vital to have a few of these people to help keep the natural collectives equilibrium.
-
-It is also vital to state that you can have too much of something. So we never just seek out these types of people and disregard key character traits we will need.
-
-#### General Business
-
-We are good at many things Marketing is not one of them.
-
-We would love for someone to help guide us through the exciting times of preparing for funding and take the first steps towards creating a Collaborative enterprise.
-
-#### Product Development
-
-They will fit into the existing group and help guide the delivery of the products for manufacturing.
-
-n-vyro.io is broken up into several components so that there is a range of skills we could utilise.
-
-At present, we could do with the following hats:
-
-  * PM
-    * To manage UI dev
-    * To manage firmware dev
-  * Branding
-    * Come up with content, and create a strong brand behind the organisation
-    * Must share our values
-    * Be comfortable with ruffling feathers, at times, and only when agreed by the collective.
-  * Copywriter
-    * Be able to enhance our message
-    * May have an eye of application-based copy
-    * Could help with our static page
-  * UX/UI
-    * Experience building UIs smart devices
-    * Has web experience
-    * Has a feel for the brand
-    * Ability to get a feel for the sector
-    * Needed across the following:
-      * NVyroConnect
-      * NVyroSense
-      * NVyroHub
-  * Electronics
-    * Help develop and research new ways of interacting with n-vyro.io
-    * Help improve existing circuitry
-    * Helping to make electronics more accessible
-  * Agriculture
-    * Provide insight into how we can improve n-vyro.io
-    * Test our devices
-  * Software Architecture
-    * Help improve upon the foundations that we have started to build
-    * Help improve the documentation
-  * Linux/System Administration
-    * Help with our release pipeline
-    * Help improve how we build NVyroHub
-  * CI/CD
-    * Release management
-    *  Versioning
-    * DevOps
-  * AI
-    * Help us explore how we could leverage ML to help our users
-  * User research
-    * Help us to work out what users need
-    * Hold testing sessions
-    * Effectively challenge ideas and the status quo
-  * QA/Testing: This should be at every stage of production
-    * Have a high-level view of the product(s)
-  * R&amp;D
-    * Need to be flexible with what they are experimenting with
-
-#### Software Development
-
-We have a relatively stable foundation to work from, but it is by no means perfect. We would love to make n-vyro.io the ecosystem that we all can come to cherish.
-
-For this, there is a lot of work that needs to go into the coming stages.
-
-Ideally, we're open to anyone who has production-level experience with the following languages:
-
- * Ruby
- * C/C++
- * Golang
- * ES2016+
- * VueJS
- * Arduino/ESP8266/ESP32
-
-They will need to be comfortable with the TDD/BDD approaches of development. A pragmatist who has an affinity for challenging ideas and testing them out. With a strong background in writing well-documented code.
-
-#### Other Important Skills
-
-  * Workers Co-Op
-  * Market analysis
-  * Strategy
-  * Funding/Investment
-  * Community Liaison
-  * Team Building
-  * Administration
-  * Facilitators
-  * Moderators
-  * Strategy
-
-#### Product Testing
-
-The idea is that anyone can test our devices.
-
 And over the coming stages, we will gradually phase our ecosystem into the public domain.
 
 For now, we are opening up the system to a select few testers.
 
-#### Resources
-
-* [Guidelines](./docs/contributing/guidelines.md)
-* [Contributing to n-vyro.io](./docs/contributing/introduction.md)
-* [Info Dump](https://miro.com/app/board/o9J_l5TOx9s=/)
+* [Introduction n-vyro.io](./docs/contributing/introduction.md)
 
 ### Bug Reporting
 
@@ -320,9 +173,9 @@ Steps to a mature organisation:
 * [Releases](./docs/notes/releases/README.md)
 * [Roadmap](./docs/notes/roadmaps/README.md)
 
-## Contributing to NVyroHub
+## Contributing
 
-See [Code of Conduct](CODE_OF_CONDUCT.md) &amp; [Contributing](CONTRIBUTING.md) for more information
+See [Code of Conduct](CODE_OF_CONDUCT.md), &amp; [Contributing](CONTRIBUTING.md) for more information. Once you are done there [checkout](./docs/contributing/README.md). 
 
 ## Copyright
 
