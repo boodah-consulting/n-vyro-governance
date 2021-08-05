@@ -23,7 +23,7 @@ Assisting in improving, and standardising, the current way we automate and track
 
 With [n-vyro.io](https://n-vyro.io), you can create your ideal environmental settings without worrying about how everything talks to each other; or whether your devices are giving your data away.
 
-We also make it easier to integrate existing tools into your environment, providing the enhanced functionality you have been missing.
+We make it easier to integrate existing tech into your environment, enhancing it; providing valuable data you never knew you had.
 
 ### What We Are Not
 
@@ -44,13 +44,13 @@ We also make it easier to integrate existing tools into your environment, provid
 
 ## Values
 
- **Community Centric**: We are small at the moment, but we aim to grow into a stable, well-established group that is an extension of its community.
+ **Community Centric**: We are small, but we aim to grow into a stable, well-established group intertwined with the community.
 
  **Tech for Good**: Not all solutions require technology. We recognise this and aim to use technology as a utility or assistant, not a panacea.
 
  **Work Smart**: We have spent most of our lives working with ineffective systems. We aim to solve problems our community have, not create new ones.
 
- **Self Sustainability**: From helping others grow locally to creating social/business systems that provide more social impact than profit. We believe that these do not need to take more than they give.
+ **Self Sustainability**: Helping others grow locally, to creating social/business systems that provide more social impact than profit. We believe that these do not need to take more than they give.
 
  **Equity**: We aim to not only help others utilise their skills but also strive to make our products available to as many people as possible, regardless of their privilege or lack thereof.
 
@@ -106,9 +106,28 @@ We also make it easier to integrate existing tools into your environment, provid
 
 ## Community
 
- * [Discord](https://discord.gg/EpgbAWCvCk)
+A community is not just some organic thing that comes about. It needs nurturing, a shared vision and a shared goal. And it is with this spirit that we take community extremely seriously. For us to grow as a co-op, there needs to be cohesion, and this is not something that just happens by changes.
+
+With this being said, we think it is super important to cultivate a community, much like how one would tend a garden or their education.
+
+We will slowly build up the foundations, testing our boundaries and expanding and compress as the situation demands it.
+
+As this is a formative stage, we will be taking our time to build a solid footing when we expand; we do so with collective focus and determination.
+
+Our goal here is to make something that can stand on its own, with a nudge from time to time, not something driven by faceless outsiders or internal personalities.
+
+For that reason that we feel forming a solid collective infrastructure, helping to strengthen these values. So that, once the entity is expanding it can naturally adapt.
+
+### Where are we?
+
+Mostly we can be found on [Discord](https://discord.gg/EpgbAWCvCk), although we are also here:
+
  * [Twitter](https://twitter.com/NVyroIO)
  * [Facebook](https://www.facebook.com/NVyroIO)
+
+### How to take part?
+
+Check out out [contributing](#contributing) section.
 
 ### Guidelines
 
@@ -118,8 +137,6 @@ We also make it easier to integrate existing tools into your environment, provid
 
 We welcome contributors of all kinds, whether it is making documentation changes or adding new features.
 
-There are a few steps to take into consideration, but for the most part, the process is not that much different from contributing to any other codebase.
-
 Ways of contributing:
 
  * Product Testing
@@ -128,7 +145,7 @@ Ways of contributing:
  * Bug Reporting
  * Funding
 
-If you spot something you think we could do with some help with your input is more than welcome.
+If you spot something that you think that we could improve, we are open to suggestions.
 
 We want to include as many people in this journey as possible, paving the way for a better way of producing products, partaking in work and interacting with businesses.
 
@@ -157,11 +174,15 @@ Regardless of whether you are a techie or a professional gardener, we encourage 
 
 In addition, we are looking for insightful, pragmatic, and passionate people who would love to spend some time collaborating with us and our goal of releasing something cool into the world to becoming founding members.
 
-#### Community Leaders
+#### Fascilitators
 
-These kinds of people will need to be able to flutter between groups and mediate or be able to be in a place to be able to make judgement calls when the time deems it, whether within [Discord](https://discord.gg/EpgbAWCvCk) or meetings.
+They will help bridge the gap between the two extremes takes a specific type of person, someone who is respected on both sides, usually for not taking sides. These people will be crucial for keeping the group dynamics in place, as they tend not to take sides and are seen as fair people.
 
-It will be vital to have a number of these kinds of people to help keep the natural diversity at an equilibrium.
+Whether within [Discord](https://discord.gg/EpgbAWCvCk) or meetings, it will be vital to have these types of minds regardless of their skillset.
+
+It will be vital to have a few of these people to help keep the natural collectives equilibrium.
+
+It is also vital to state that you can have too much of something. So we never just seek out these types of people and disregard key character traits we will need.
 
 #### General Business
 
@@ -171,7 +192,7 @@ We would love for someone to help guide us through the exciting times of prepari
 
 #### Product Development
 
-You will be able to fit into the existing group and help guide the delivery of the products for manufacturing.
+They will fit into the existing group and help guide the delivery of the products for manufacturing.
 
 n-vyro.io is broken up into several components so that there is a range of skills we could utilise.
 
