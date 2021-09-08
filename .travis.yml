@@ -1,0 +1,55 @@
+language: node_js
+node_js: 14
+  
+notifications:
+  slack:
+    secure: nE/EkaRBe8gPmNnChURsk/bZyYI0stHF51jgt8CMd0OxYmfP7RBdTRYePObcB09aAMFXaCar4eI9elKa7SXV1oT+C+vDZLolxJ8x5Hb/HMMAKmgQPyWTom4JAP27S3+Co5ceh2LCFmrRV1PesEBQTduwKhs1+z0AEbgz9IegeSQ4JWQTQGrRqqvAbt2dNoAOJR30b7Ft8Fm0cXUVcJMJ14BV8RNqavvxK6UdR8EUs/B04/YxYtiBBPODww7kGzYhFf9yoY2uLXuRCmQcpqkzs4QCy8+ccOxBmBhVj08YVURb7HhoGhjBawXvL/WVlHhC0ETDZXvrQ9XRzjbazA6Ysjlvr/EKgR4mclFazLGXowoOgoUsKRnO3LsdC+o2lj2SU19RTb4/OnRa353k/wp2ZlLOHSrlSKx24aW/MWxDUNAOV0JRdvMp6fUfPmK7KbFCo54Xeczx632aV7nWaUT8IPh6WvC8Vn8kcg3S18WFRu3I2KPe56gtjzlhc3BzQrN/kRaCAmsYW1rACLHe4P22fzdYf/N7DUZk5Pun9qISvS62+/4zoJXVtA7MbXecxU6H3g9ZYjeF1wTNS0ah2F6jFhJXyf8+ut3l1jSbVJpVsa30ViGLkMZg9ySgWJi1qYbXSvj21S9XjXJ6egHBwjmj3YdORtrwVDmMJr96+G0bL5g=
+
+before_install:
+  # Decrypt the git_gpg_keys.asc.enc key into /tmp/git_gpg_keys.asc
+  - openssl aes-256-cbc -K $encrypted_44fd1061a48b_key -iv $encrypted_44fd1061a48b_iv -in git_gpg_keys.asc.enc -out /tmp/git_gpg_keys.asc -d
+  # Make sure only the current user can read the keys
+  - chmod 600 /tmp/git_gpg_keys.asc
+  # Import the gpg key
+  - gpg --batch --yes --import /tmp/git_gpg_keys.asc
+  - gpg --list-keys
+  # Create a script that pass the passphrase to the gpg CLI called by git
+  - echo '/usr/bin/gpg --passphrase ${GPG_PASSPHRASE} --batch --no-tty "$@"' > /tmp/gpg-with-passphrase && chmod +x /tmp/gpg-with-passphrase
+  # Configure git to use the script that passes the passphrase
+  - git config gpg.program "/tmp/gpg-with-passphrase"
+  # Configure git to sign the commits and tags
+  - git config commit.gpgsign true
+  # Configure git to use your GPG key
+  - git config --global user.signingkey ${GPG_KEY_ID}
+  - git config --global user.name ${GIT_USERNAME}
+  - git config --global user.email ${GIT_EMAIL}
+  - git config --global github.user ${GIT_USERNAME}
+
+stages:
+- name: code quality
+- name: release
+  if: (branch IN (main, next, beta, alpha) OR branch =~ /(\d+)\.(\d+|x)\.x/) AND type != pull_request
+
+jobs:
+  include:
+  - stage: code quality
+    script:
+      - commitlint-travis
+
+  - stage: release
+    deploy:
+      provider: script
+      skip_cleanup: true
+      script:
+        - npx semantic-release
+      on:
+        branch:
+        - "/^+([0-9])?(.{+([0-9]),x}).x$/"
+        - 1.x.x
+        - 2.x.x
+        - alpha
+        - beta
+        - main
+        - next
+        - next-major
+
