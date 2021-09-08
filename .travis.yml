@@ -1,0 +1,14 @@
+language: node_js
+node_js: 14
+
+stages:
+- name: code quality
+- name: release
+  if: (branch IN (main, next, beta, alpha) OR branch =~ /(\d+)\.(\d+|x)\.x/) AND type != pull_request
+
+jobs:
+  include:
+  - stage: code quality
+    script:
+      - cd
+
