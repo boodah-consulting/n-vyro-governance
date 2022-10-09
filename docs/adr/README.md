@@ -5,6 +5,7 @@ This log lists the architectural decisions for this project.
 <!-- toc -->
 
 * [ADR-0000](0000-device-naming-convention-(deviceid).md) - Device Naming Convetion (DeviceID) - [accepted]
+* [ADR-0001](0001-messaging-layer.md) - Messaging Layer - [accepted]
 
 <!-- tocstop -->
 
