@@ -7,8 +7,8 @@
   "directories": {
     "doc": "docs"
   },
-  "dependencies": {},
   "devDependencies": {
+    "adr-tool": "^0.3.0",
     "@commitlint/cli": "^13.1.0",
     "@commitlint/config-angular": "^13.1.0",
     "@commitlint/travis-cli": "^13.1.0",
