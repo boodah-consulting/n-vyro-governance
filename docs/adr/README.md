@@ -7,6 +7,7 @@ This log lists the architectural decisions for this project.
 * [ADR-0000](0000-device-naming-convention-(deviceid).md) - Device Naming Convetion (DeviceID) - [accepted]
 * [ADR-0001](0001-messaging-layer.md) - Messaging Layer - [accepted]
 * [ADR-0002](0002-message-payload.md) - Message Payload - [accepted]
+* [ADR-0003](0003-firmware-stack.md) - Firmware Stack - [accepted]
 
 <!-- tocstop -->
 
