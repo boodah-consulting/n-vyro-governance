@@ -1,0 +1,22 @@
+#!/bin/bash
+
+#
+#  [PACKAGE_NAME]
+#
+#  Copyright (C) 2019-2022 n-vyro.io LLC
+#
+#  This Software License Agreement (the “Agreement”) is between n-vyro.io LLC (“n-vyro.io”) and You (including your
+#  agents and affiliates), a commercial licensee of n-vyro.io's software. If you have not purchased a NVyroHub
+#  commercial license from n-vyro.io, these terms do not apply to you, and your use of the n-vyro.io software is
+#  instead governed by the GNU General Public License, version 3.
+#
+
+set -e
+
+PACKAGE_NAME="n-vyro-connect"
+
+GIT_SHA=`echo $TRAVIS_COMMIT | cut -c1-6`
+
+echo "> SHA FOR FIRMWRE: $GIT_SHA"
+
+cp .pio/build/nodemcuv2/firmware.bin archives/${PACKAGE_NAME}-firmware-$GIT_SHA.bin

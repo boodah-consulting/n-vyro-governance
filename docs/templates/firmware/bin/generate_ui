@@ -1,0 +1,126 @@
+#
+# [PACKAGE_NAME]
+#
+# Copyright (C) 2019-2022 n-vyro.io LLC
+#
+# This Software License Agreement (the “Agreement”) is between n-vyro.io LLC (“n-vyro.io”) and You (including your
+# agents and affiliates), a commercial licensee of n-vyro.io's software. If you have not purchased a NVyroHub
+# commercial license from n-vyro.io, these terms do not apply to you, and your use of the n-vyro.io software is
+# instead governed by the GNU General Public License, version 3.
+#
+
+#!/usr/bin/bash
+
+set -e
+
+script="generate_ui"
+PACKAGE_NAME="n-vyro-frontend-ui"
+
+# This script allows us to pull down a copy of the UI from the n-vyro.io repo
+# and generate a new UI from it. This is useful for when we want to update the
+# UI but don't want to make a new release, or alternatively when we want to use
+# a specific version.
+#
+#
+# Example: ./bin/generate_ui --ui v1.7.4 --firmware v1.11.0 --path /path/to/project --type n-vyro-zone
+#
+while test $# -gt 0; do
+  case "$1" in
+    -h|--help)
+      echo "$script - generate UI"
+      echo " "
+      echo "$script [options]"
+      echo " "
+      echo "options:"
+      echo "--help                Show brief help"
+      echo "--path=PATH           Specify the path to store the generated UI"
+      echo "--firmware=VERSION    Specify the firmware version"
+      echo "--ui=VERSION          Specify the UI version"
+      echo "--type=TYPE        		Specify the type of UI to generate"
+      exit 0
+      ;;
+    --ui)
+      shift
+      if test $# -gt 0; then
+        export UI_VERSION=$1
+      else
+        echo "no UI version specified"
+        exit 1
+      fi
+      shift
+      ;;
+    --firmware)
+      shift
+      if test $# -gt 0; then
+        export FIRMWARE_VERSION=$1
+      else
+        echo "no firmware version specified"
+        exit 1
+      fi
+      shift
+      ;;
+    --type)
+      shift
+      if test $# -gt 0; then
+        export UI_TYPE=$1
+      else
+        echo "no UI type specified"
+        exit 1
+      fi
+      shift
+      ;;
+    --path)
+      shift
+      if test $# -gt 0; then
+        export UI_PATH=$1
+      else
+        echo "no UI path specified"
+        exit 1
+      fi
+      shift
+      ;;
+    *)
+      break
+      ;;
+  esac
+done
+
+if [ -z "$UI_VERSION" ]; then
+  echo "no ui version specified"
+  exit 1
+fi
+
+if [ -z "$FIRMWARE_VERSION" ]; then
+  echo "no api version specified"
+  exit 1
+fi
+
+if [ -z "$UI_PATH" ]; then
+  echo "no ui path specified"
+  exit 1
+fi
+
+if [ -z "$UI_TYPE" ]; then
+  echo "no ui type specified"
+  exit 1
+fi
+
+echo "generating UI for ${PACKAGE_NAME}@${UI_VERSION}"
+
+rm -rf ${UI_PATH}/build/* &&
+rm -Rf ${UI_PATH}/data &&
+git clone git@github.com:boodah-consulting/${PACKAGE_NAME}.git ${UI_PATH}/build/${PACKAGE_NAME} &&
+cd ${UI_PATH}/build/${PACKAGE_NAME} &&
+git fetch &&
+git checkout v${UI_VERSION} &&
+echo "{ \"name\": \"ui\", \"version\": \"${UI_VERSION}\" }" >> src/data/ui.json &&
+echo "{ \"name\": \"firmware\", \"version\": \"${FIRMWARE_VERSION}\" }" >> src/data/firmware.json &&
+npm install &&
+bundle install &&
+npm run build &&
+bundle exec ./bin/build-esp ${UI_TYPE} &&
+cd - &&
+cp -Rfp ${UI_PATH}/build/${PACKAGE_NAME}/data ${UI_PATH}/data &&
+git checkout -- ${UI_PATH}/data
+
+exit 0
