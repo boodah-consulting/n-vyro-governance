@@ -9,6 +9,7 @@ This log lists the architectural decisions for this project.
 * [ADR-0002](0002-message-payload.md) - Message Payload - [accepted]
 * [ADR-0003](0003-firmware-stack.md) - Firmware Stack - [accepted]
 * [ADR-0004](0004-ui-stack.md) - UI Stack - [accepted]
+* [ADR-0005](0005-custom-circuit-technical-details.md) - Custom Circuit Technical Details - [accepted]
 
 <!-- tocstop -->
 
