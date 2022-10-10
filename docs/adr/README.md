@@ -10,6 +10,7 @@ This log lists the architectural decisions for this project.
 * [ADR-0003](0003-firmware-stack.md) - Firmware Stack - [accepted]
 * [ADR-0004](0004-ui-stack.md) - UI Stack - [accepted]
 * [ADR-0005](0005-custom-circuit-technical-details.md) - Custom Circuit Technical Details - [accepted]
+* [ADR-0006](0006-nvyrohub-technical-details.md) - NVyroHub Technical Details - [accepted]
 
 <!-- tocstop -->
 
