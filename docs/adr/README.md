@@ -12,6 +12,7 @@ This log lists the architectural decisions for this project.
 * [ADR-0005](0005-custom-circuit-technical-details.md) - Custom Circuit Technical Details - [accepted]
 * [ADR-0006](0006-nvyrohub-technical-details.md) - NVyroHub Technical Details - [accepted]
 * [ADR-0007](0007-device-bootloader.md) - Device Bootloader - [accepted]
+* [ADR-0008](0008-data-layer.md) - Data Layer - [accepted]
 
 <!-- tocstop -->
 
