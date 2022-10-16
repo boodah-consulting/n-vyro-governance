@@ -15,6 +15,7 @@ This log lists the architectural decisions for this project.
 * [ADR-0008](0008-data-layer.md) - Data Layer - [accepted]
 * [ADR-0009](0009-api-layer.md) - API Layer - [accepted]
 * [ADR-0010](0010-common-core.md) - Common Core - [accepted]
+* [ADR-0011](0011-common-library.md) - Common Library - [accepted]
 
 <!-- tocstop -->
 
