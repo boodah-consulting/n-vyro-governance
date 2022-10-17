@@ -1,0 +1,16 @@
+#!/bin/zsh
+
+#
+#  [PACKAGE_NAME]
+#
+#  Copyright (C) 2019-2022 n-vyro.io LLC
+#
+#  This Software License Agreement (the “Agreement”) is between n-vyro.io LLC (“n-vyro.io”) and You (including your
+#  agents and affiliates), a commercial licensee of n-vyro.io's software. If you have not purchased a NVyroHub
+#  commercial license from n-vyro.io, these terms do not apply to you, and your use of the n-vyro.io software is
+#  instead governed by the GNU General Public License, version 3.
+#
+
+PACKAGE_NAME="n-vyro-connect"
+
+platformio device list --mdns --logical | grep ${PACKAGE_NAME} |  sed 's/\._arduino\._tcp.local.$/\.local/' | for hostname in `xargs`; do; echo $hostname; pio run -e nodemcuv2 --target uploadfs --upload-port $hostname &>2; done
