@@ -36,58 +36,56 @@ feature. We have kept an example of this logic within
 
 ## Considered Options
 
-* Shared component
+* Mixins
+* Hooks
 * Shared functionality
 * Custom initialisation
 
 ## Decision Outcome
 
-Chosen option: "Shared component" and "Custom initialisation", because we want
-the core process to be consistent, but we also need users to be able to include
-all the pieces of data they need to be loaded before the main UI component is
-rendered.
+Chosen option: "Mixins" and "Hooks", because we want the core process to be
+consistent, but we also need users to be able to include all the pieces of data
+they need to be loaded before the main UI component is rendered.
 
-This allows users to reuse the `SplashScreen` component, whilst not forcing
-them to only load pre-defined data.  We could further improve upon this,
-however it is enough to standardise where this logic should live, and what
-packages are responsible for which pieces of the process.
+We've always had a mix of "Shared functionality" and "Custom initialisation",
+this has served their purpose, but it is as lot more intuitive to leverage
+"Mixins" and "Hooks".
+
+This allows users to easily reuse the `SplashScreen` component, whilst not
+forcing them to only load pre-defined data. We could further improve upon
+this, however it is enough to standardise where this logic should live, and
+what packages are responsible for which pieces of the process.
 
 Each client package will have a `App` component, it is this component which
 will handle the bootstrap process of our applications. This will rely heavily
 on the instructions from the `@n-vyro/bootstrap-frontend`s
 [README](https://github.com/boodah-consulting/n-vyro-bootstrap-frontend/blob/main/README.md#integration).
-This should outline how to integrate the bootstrap process into a client
-application, along with giving examples of how one would make sure that API
-calls are completed before the process is complete.
+This outlines how to integrate the bootstrap process into a client application.
 
-This makes sure that, no matter what page a user starts from, the splash screen
-will always be rendered, and that all the necessary data is loaded before the
-user is able to view the application. This does mean that client packages will
-need to do more than we'd like them to, namely duplicating things like
-establishing messaging connection, what topics to subscribe to, and what to do
-when we receive a message.
+We also need to make sure that, no matter what page a user starts from, the
+splash screen will always be rendered, and that all the necessary data is
+loaded before the user is able to view the application.
 
-We could spend more time fleshing this out, but we're in danger of over
-simplifying the process. So we think this is a decent half way house to
-allowing users to integrate this process into client package.
+Typically, a user of these components will needs to make some
+[API](0009-api-layer.md) calls, and intialise some [data
+layer](0008-data-layer.md), for this we have simplified this process. So that
+all a user have to do is define the functionality they want, using the hooks
+provided by `@n-vyro/bootstrap` and copy a few snippets to fully integrate the
+bootstrap process.
 
-We already know that the `App` component is rarely modified once set up, so we
-believe it is acceptable to keep the current approach and _just_ make sure that
-it is well documented.
-
-At a later stage we will review this and look at the potential of streamlining
-this process further.
+This gives those who want to reuse this process an easy way of integrating into
+n-vyro.io's [UI](0004-ui-stack.md) loading process.
 
 ### Positive Consequences <!-- optional -->
 
 * `App` component becomes the place we initialise the application
+* Hooks for plugging into the process
+* Small amount of code to get started
 * `SplashScreen` handles displaying the splash screen
 * `@n-vyro/bootstrap-frontend` becomes the central point of truth
 
 ### Negative Consequences <!-- optional -->
 
-* Still requires some coding my client packages
-* No current way of injecting the client packages data, into a helper function
 * Changing the process within `@n-vyro/bootstrap-frontend` means that each client package will also need to update
 
 ## Links <!-- optional -->
