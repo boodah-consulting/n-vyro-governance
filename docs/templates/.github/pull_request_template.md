@@ -73,6 +73,8 @@ addressed, and remove any items that are not relevant to this PR.
 
 -->
 
+- [ ] Have signed all commits
+- [ ] All tests have passed
 - [ ] My pull request represents one logical piece of work.
 - [ ] My commits are related to the pull request and look clean.
 - [ ] I have added appropriate tests and documentation to any new code.
