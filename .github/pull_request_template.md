@@ -37,7 +37,8 @@ issue, a Trello card, or another pull request? Link it here.
 Include any notes about things that need to happen before this PR is merged, e.g.:
 
 - [ ] Change the base branch
-- [ ] Ensure PR #56 is merged
+- [ ] Ensure #69 is merged
+- [ ] Update README.md
 
 -->
 
