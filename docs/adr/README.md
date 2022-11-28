@@ -17,6 +17,7 @@ This log lists the architectural decisions for this project.
 * [ADR-0010](0010-common-core.md) - Common Core - [accepted]
 * [ADR-0011](0011-common-library.md) - Common Library - [accepted]
 * [ADR-0012](0012-ui-loading-process.md) - UI Loading Process - [accepted]
+* [ADR-0013](0013-messaging-topics.md) - Messaging Topics - [accepted]
 
 <!-- tocstop -->
 
