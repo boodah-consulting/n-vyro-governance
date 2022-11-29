@@ -20,6 +20,7 @@ This log lists the architectural decisions for this project.
 * [ADR-0013](0013-messaging-topics.md) - Messaging Topics - [accepted]
 * [ADR-0014](0014-notification-payload.md) - Notification Payload - [accepted]
 * [ADR-0015](0015-alert-payload.md) - Alert Payload - [accepted]
+* [ADR-0016](0016-settings-payload.md) - Settings Payload - [accepted]
 
 <!-- tocstop -->
 
