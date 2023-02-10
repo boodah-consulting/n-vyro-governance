@@ -1,6 +1,6 @@
 # 13 - Messaging Topics
 
-* Status: accepted <!-- optional -->
+* Status: draft <!-- optional -->
 * Deciders: Yomi (baphled) Colledge <!-- optional -->
 * Date: 28/11/2022, 14:20:14 <!-- optional -->
 * Template used: [MADR 3.0.0](https://adr.github.io/madr/) <!-- optional -->
@@ -21,7 +21,7 @@ We also want to ensure that our newly introduced topics follow a similar pattern
 particular, can have multiple messages for a single device, so this will need a bit more consideration as we do not
 overwrite these messages accidentally.
 
-We also publish a message to `notifications/devices`. These messages notify NVyroHub of the device changes and makes
+We also publish a message to `notifications/devices`. These messages notify NVyroHub of the device changes and make
 the appropriate changes. We may need to modify this and consider other notifications we are yet to implement. With
 this exploration, we should then be able to determine a topic address pattern and describe its utility.
 
@@ -83,7 +83,7 @@ Depending on the notification type, the payload will differ. However, the topic 
 
 #### NVyroConnect
 
-The topic includes a parameterised version of the device name. 
+The topic includes a parameterised version of the device name.
 
 These messages are sent out continuously by NVyroHub, regardless of whether the state has changed. These messages keep
 the device in the expected state. As an incoming message include this, it is easy to determine via an incoming
@@ -135,7 +135,7 @@ impact of the change and how best to implement it.
 
 ### NVyroSense
 
-Similarly to NVyroConnect this topic was created when we were prototyping the system. Originally these were only
+Similarly to NVyroConnect, this topic was created when we were prototyping the system. Originally these were only
 NVyroSoil devices, so we assigned them with the prefix `plants`. We've moved away from this concept now. Regardless of
 whether it's NVyroSoil or NVyroZone, these devices are sensors, which is the reason is that we've decided on the
 prefix `sensors`.
@@ -144,8 +144,8 @@ prefix `sensors`.
 
 This device sends out both notifications and alerts. Both of these are generated based on user-generated input.
 
-A device can have several triggers, so we need to consider this for our address pattern. These will look something
-like this: `alerts/shelf-1/humidity`.
+A device can have several triggers, so we need to consider this for our address pattern. These will look like
+something like this: `alerts/shelf-1/humidity`.
 
 If we set temperature, humidity and moisture triggers for "Shelf 1", NVyroHub sends the appropriate alerts. Then it
 will send messages to the following topics: `alerts/shelf-1/temperature`, `alerts/shelf-1/humidity`, and
@@ -160,7 +160,7 @@ the following structure `notifications/shelf-1` and `notifications/n-vyro-hub`.
 
 ### Other Devices
 
-We know that there will be a time when we introduce new devices, and for this the reason, we've spent some time
+We know that there will be a time when we introduce new devices, and for this reason, we've spent some time
 considering how these devices would fit into our topic structure.
 
 Two types of devices we'll be introducing soon are NVyroEye and NVyroProbe.
